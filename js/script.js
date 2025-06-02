@@ -73,7 +73,7 @@ function spin () {
 
   const wheel = document.getElementById('spinner-wheel')
   const spins = 5
-  let randomDegree = Math.floor(Math.random() * 360)
+  const randomDegree = Math.floor(Math.random() * 360)
   currentRotation = currentRotation + spins * 360 + randomDegree
 
   wheel.style.transform = 'rotate(' + currentRotation + 'deg)'
