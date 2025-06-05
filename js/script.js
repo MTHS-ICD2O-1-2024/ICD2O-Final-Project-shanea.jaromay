@@ -83,7 +83,7 @@ function spin () {
   const index = Math.floor((words.length - (normalizedDegree / sliceAngle)) % words.length)
 
   setTimeout(function () {
-    document.getElementById('result').innerHTML = 'Result: ' + words[index]
+    document.getElementById('result').innerHTML = 'Result: ' + words.at(index)
   }, 4000)
 
   window.currentRotation = currentRotation
