@@ -1,5 +1,7 @@
 # ICD2O-Final-Project
 
+App name: Word Spinner<br />
+
 My final project is a spinner where you put your own sentences, separating them with a comma and the spinner will pick which one you put randomly.<br/>
 
 <img id="hamster-gif" src="./Image/hamster.gif" alt="hamster wheel" width="200px"/><br/>
